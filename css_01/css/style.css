@@ -4,17 +4,19 @@
 }
 
 body {
-	height: 100vw;
+	width: 100%;
 }
-
+.nine ul{
+	 display:flex;
+	 flex-wrap: wrap;
+	 justify-content:space-between;
+}
 .nine li {
-	width: 31vw;
-	padding-bottom: 31vw;
+	width: 31%;
+	padding-bottom: 30%;
 	background-color: orange;
-	border-radius: 2vw;
-	margin: 1vw 0vw 1vw 1vw;
+	border-radius: 5%;
+	margin: 1%;
 	list-style: none;
-	float: left;
+   
 }
-
-</style>
