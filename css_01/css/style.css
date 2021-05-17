@@ -4,8 +4,10 @@
 }
 
 body {
+
 	width: 100%;
 }
+//九宫格
 .nine ul{
 	 display:flex;
 	 flex-wrap: wrap;
